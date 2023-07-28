@@ -36,7 +36,7 @@ function SideMenu({ user: { unreadNotification, email, unreadMessage, username }
     <div className="stickyCol">
       <Grid>
         <MenuRow href="/" menuName="Home" iconName="home" />
-        <MenuRow href="https://freelance-site-h9ouvs61r-devraj4522.vercel.app/" menuName="Freelance" iconName="react" />
+        <MenuRow href="https://freelance-site-lake.vercel.app/" menuName="Freelance" iconName="react" />
         <MenuRow only="mobile tablet" iconName="search" href="/search" />
 
         <MenuRow iconName="mail outline" menuName="Messages" href="/messages">
