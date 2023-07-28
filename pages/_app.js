@@ -49,7 +49,6 @@ MyApp.getInitialProps = async ({ ctx }) => {
     ctx.pathname === "/" ||
     ctx.pathname === "/[username]" ||
     ctx.pathname === "/notifications" ||
-    ctx.pathname === "/freelancers/add" ||
     ctx.pathname === "/post/[postId]" ||
     ctx.pathname === "/messages" ||
     ctx.pathname === "/search";
