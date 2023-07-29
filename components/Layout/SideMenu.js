@@ -37,6 +37,7 @@ function SideMenu({ user: { unreadNotification, email, unreadMessage, username }
       <Grid>
         <MenuRow href="/" menuName="Home" iconName="home" />
         <MenuRow href="https://freelance-site-lake.vercel.app/" menuName="Freelance" iconName="react" />
+        <MenuRow href="https://workmanagement-tool-4ivz.vercel.app/" menuName="Manage Work" iconName="folder" />
         <MenuRow only="mobile tablet" iconName="search" href="/search" />
 
         <MenuRow iconName="mail outline" menuName="Messages" href="/messages">
